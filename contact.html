@@ -17,10 +17,19 @@
 
     <main>
       <h1 class="page-title">contact</h1>
-      <p>
-        Get in touch! You can reach me at <strong>palanisa@calpoly.edu</strong> or connect with me on 
-        <a href="https://www.linkedin.com/in/nithyasri-palanisamy" target="_blank">LinkedIn</a>.
-      </p>
+
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
     </main>
 
     <footer class="footer">
